@@ -1,0 +1,67 @@
+.content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.content-car{
+    height: 180px;
+    width:340px;
+    border-radius: 15px;
+    border: solid 1px rgba(0,0,0,0.4);
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.content-car:hover{
+
+    transform: scale(1.05);
+}
+
+.content-car img{
+    position: absolute; /* Posiciona a imagem dentro do contêiner */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1;
+    
+}
+
+.footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    height: 120px;
+    width: 100%;
+    margin: 10px;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center; /* Centraliza todos os itens horizontalmente */
+}
+
+.Header .menu {
+    position: absolute; /* Remove o menu do fluxo de layout normal */
+    left: 0; 
+    width: 45px;
+    margin: 10px;/* Posiciona o menu na extrema esquerda */
+    cursor: pointer;
+}
+
+.Header .logo {
+    height: 100px;
+}
