@@ -3,68 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veiculos</title>
+    <title>Veículos</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="styles/style-content.css">
     <link rel="stylesheet" type="text/css" href="styles/style-cmenu.css">
+    <link rel="stylesheet" type="text/css" href="styles/style-menuBurguer.css">
+
     <link rel="icon" href="assets/logo-turismo.png" type="image/x-icon">
 </head>
 <body>
     <div class="content">
-        <div class="Header">
-            <img class="menu" src="assets/menu.svg" alt="">
-            <img class="logo" src="/assets/logo-turismo.png" alt="">
-           
-        </div>
-
-        <h1 class="title">LOCAÇÃO DE VEICULOS</h1>
-
-        <div class="content-car">
-            <a href="https://www.localiza.com/brasil/pt-br?gad_source=1&gclid=Cj0KCQjw4Oe4BhCcARIsADQ0csl-yfmXqC2i4DSrWZ0bwwA8uHhxiU0lJsY5fy6Dnjf9_MBUKK4OIbUaAsAFEALw_wcB" target="_blank">
-            <h2 class="name-title">CARROS</h2>
-            <img src="assets/carros.jpg" alt="">
-            </a>
-
-        </div>
-        <div class="content-car">
-            <a href="https://www.localiza.com/brasil/pt-br?gad_source=1&gclid=Cj0KCQjw4Oe4BhCcARIsADQ0csl-yfmXqC2i4DSrWZ0bwwA8uHhxiU0lJsY5fy6Dnjf9_MBUKK4OIbUaAsAFEALw_wcB" target="_blank">
-                <h2 class="name-title">CARROS COM 7 LUGARES</h2>
-                <img src="assets/carros.jpg" alt="">
-            </a>
-        </div>
-        <div class="content-car">
-            <a href="https://www.localiza.com/brasil/pt-br?gad_source=1&gclid=Cj0KCQjw4Oe4BhCcARIsADQ0csl-yfmXqC2i4DSrWZ0bwwA8uHhxiU0lJsY5fy6Dnjf9_MBUKK4OIbUaAsAFEALw_wcB" target="_blank">
-                <h2 class="name-title">CAMINHONETES</h2>
-                <img src="assets/carros.jpg" alt="">
-            </a>
-        </div>
-        <div class="content-car">
-            <a href="https://www.localiza.com/brasil/pt-br?gad_source=1&gclid=Cj0KCQjw4Oe4BhCcARIsADQ0csl-yfmXqC2i4DSrWZ0bwwA8uHhxiU0lJsY5fy6Dnjf9_MBUKK4OIbUaAsAFEALw_wcB" target="_blank">
-                <h2 class="name-title">MINI VAN</h2>
-                <img src="assets/carros.jpg" alt="">
-            </a>
-        </div>
-
-            <footer style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
-                <div style="max-width: 1200px; margin: auto;">
-                    <p>&copy; 2024 Turismo360. Todos os direitos reservados.</p>
-                    <nav>
-                        <a href="#sobre">Sobre</a> |
-                        <a href="#servicos" >Serviços</a> |
-                        <a href="#contato" >Contato</a> |
-                    </nav>
-                    <p>Redes sociais:</p>
-                    <div>
-                        <a href="https://facebook.com">Facebook</a>
-                        <a href="https://twitter.com" >Twitter</a>
-                        <a href="https://instagram.com" >Instagram</a>
-                    </div>
-                </div>
-            </footer>
-            
         
-  
+        <!-- Cabeçalho -->
+        <div class="Header">
+            <img class="hamburguer" id="menuIcon" src="assets/menu.svg"  onclick="toggleMenu()" alt="Menu">
+            <img class="logo" src="assets/logo-turismo.png" alt="Logo Turismo">
+        </div>
+
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <h1 class="title">LOCAÇÃO DE VEÍCULOS</h1>
+
+        <!-- Conteúdo de veículos -->
+        <div class="grid-content-car">
+
+            <div class="content-car">
+                <a href="https://www.localiza.com/brasil/pt-br?gad_source=1&gclid=Cj0KCQjw4Oe4BhCcARIsADQ0csl-yfmXqC2i4DSrWZ0bwwA8uHhxiU0lJsY5fy6Dnjf9_MBUKK4OIbUaAsAFEALw_wcB" target="_blank">
+                    <h2 class="name-title">CARROS</h2>
+                    <img src="assets/carros.jpg" alt="Imagem de Carros">
+                </a>
+            </div>
+
+            <div class="content-car">
+                <a href="https://www.localiza.com/brasil/pt-br?gad_source=1&gclid=Cj0KCQjw4Oe4BhCcARIsADQ0csl-yfmXqC2i4DSrWZ0bwwA8uHhxiU0lJsY5fy6Dnjf9_MBUKK4OIbUaAsAFEALw_wcB" target="_blank">
+                    <h2 class="name-title">CARROS COM 7 LUGARES</h2>
+                    <img src="assets/carros.jpg" alt="Imagem de Carros com 7 Lugares">
+                </a>
+            </div>
+
+            <div class="content-car">
+                <a href="https://www.localiza.com/brasil/pt-br?gad_source=1&gclid=Cj0KCQjw4Oe4BhCcARIsADQ0csl-yfmXqC2i4DSrWZ0bwwA8uHhxiU0lJsY5fy6Dnjf9_MBUKK4OIbUaAsAFEALw_wcB" target="_blank">
+                    <h2 class="name-title">CAMINHONETES</h2>
+                    <img src="assets/carros.jpg" alt="Imagem de Caminhonetes">
+                </a>
+            </div>
+
+            <div class="content-car">
+                <a href="https://www.localiza.com/brasil/pt-br?gad_source=1&gclid=Cj0KCQjw4Oe4BhCcARIsADQ0csl-yfmXqC2i4DSrWZ0bwwA8uHhxiU0lJsY5fy6Dnjf9_MBUKK4OIbUaAsAFEALw_wcB" target="_blank">
+                    <h2 class="name-title">MINI VAN</h2>
+                    <img src="assets/carros.jpg" alt="Imagem de Mini Van">
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Rodapé -->
+        <footer style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
+            <div style="max-width: 1200px; margin: auto;">
+                <p>&copy; 2024 Turismo360. Todos os direitos reservados.</p>
+                <nav>
+                    <a href="#sobre">Sobre</a> |
+                    <a href="#servicos">Serviços</a> |
+                    <a href="#contato">Contato</a>
+                </nav>
+                <p>Redes sociais:</p>
+                <div>
+                    <a href="https://facebook.com">Facebook</a>
+                    <a href="https://twitter.com">Twitter</a>
+                    <a href="https://instagram.com">Instagram</a>
+                </div>
+            </div>
+        </footer>
+
     </div>
+    
     <script src="script/script.js"></script>
 </body>
 </html>
