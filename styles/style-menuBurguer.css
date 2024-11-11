@@ -13,17 +13,20 @@
 
 .menu ul {
     list-style-type: none;
+   
 }
 
 .menu ul li {
     padding: 15px;
     text-align: center;
+    
 }
 
 .menu ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .menu ul li a:hover {
@@ -49,4 +52,3 @@
 .hamburger.open span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
 }
-
