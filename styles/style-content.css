@@ -105,6 +105,7 @@ body{
 
 .div-content-turismo img {
     width: 100px;
+    max-width: 100px;
     height: auto; /* Mantém a proporção das imagens */
     border-radius: 5px; /* Bordas arredondadas */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
