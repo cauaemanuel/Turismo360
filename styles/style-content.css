@@ -29,10 +29,60 @@ body{
     transition: transform 0.5s ease;
 }
 
+.content-map.content-car{
+    padding: 0;
+    
+}
+
+.content-lugar{
+    height: 180px;
+    width:340px;
+    border-radius: 15px;
+    border: solid 1px rgba(0,0,0,0.4);
+    padding: 10px;
+    
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+}
+.content-city.content-car:hover{
+   
+    transform: scale(1.0);
+}
+
+
+
+.content-map.content-car h2{
+    position:absolute;
+    margin: 7px;
+}
+
+.content-map.content-car:hover{
+   
+    transform: scale(1.0);
+}
+
+.lista-cidades{
+    padding: 10px;
+    background-color: #d3d3d3;
+    border-radius: 10px 15px;
+}
+
+.lista-cidades li{
+    list-style: none;
+    color: black;
+    
+}
+
+.lista-cidades li:hover{
+    color: #333;
+}
 .content-car:hover{
 
     transform: scale(1.05);
 }
+
 
 .content-car img{
     position: absolute; /* Posiciona a imagem dentro do contêiner */
@@ -44,6 +94,24 @@ body{
     z-index: 1;
     
 }
+
+.div-content-turismo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Define 3 colunas de largura igual */
+    gap: 8px; /* Espaço entre os itens */
+    width: 100%; /* Garante que o grid ocupe todo o espaço disponível */
+    padding: 5px; /* Espaçamento interno ao redor do grid */
+}
+
+.div-content-turismo img {
+    width: 100px;
+    height: auto; /* Mantém a proporção das imagens */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    object-fit: cover; /* Ajusta a imagem ao contêiner */
+}
+
+
 
 footer{
     border-top: 1px solid rgba(0, 0, 0, 0.4);
