@@ -12,6 +12,7 @@ body{
 .grid-content-car{
     display: grid;
     grid-template-columns: 1fr;
+  
     /*gap: 20px;*/   
 }
 
@@ -40,7 +41,7 @@ body{
     border-radius: 15px;
     border: solid 1px rgba(0,0,0,0.4);
     padding: 10px;
-    
+    margin: 10px 0;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -164,9 +165,9 @@ footer p{
     
 }
 
-..feedbacks-coments {
+.feedbacks-coments {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas de largura igual */
+    grid-template-columns: 1fr; /* Duas colunas de largura igual */
     gap: 20px; /* Espaço entre as colunas e linhas */
     padding: 20px;
 }
@@ -196,4 +197,34 @@ footer p{
     font-size: 14px;
     line-height: 1.5;
     color: #333;
+}
+
+
+
+
+@media screen and (min-width: 992px){
+    .grid-content-car{
+        grid-template-columns: 1fr 1fr;
+        gap: 0 15px;
+        padding: 10px;
+        
+    }
+
+    .feedbacks-coments{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .feedback-block{
+        width: 700px;        
+    }
+
+    .map{
+        width: 700px;
+    }
+
+    .map iframe{
+        width: 100%;
+    }
+
+    
 }
