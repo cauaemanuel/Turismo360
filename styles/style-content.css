@@ -212,8 +212,9 @@ footer p{
 
     .feedbacks-coments{
         grid-template-columns: 1fr 1fr;
+        width: 780px;
     }
-    
+
     .feedback-block{
         width: 700px;        
     }
