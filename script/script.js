@@ -53,6 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
 //   recife         <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d75163.17291162205!2d-34.92690468695944!3d-8.073136899063146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spontos%20turisticos%20recife!5e0!3m2!1sen!2sbr!4v1733843792761!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
 // paulista    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d44706.83675414563!2d-34.86880126641423!3d-7.9405790294033896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spontos%20tur%C3%ADsticos%20near%20Paulista%20-%20State%20of%20Pernambuco!5e0!3m2!1sen!2sbr!4v1733843989650!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 // olinda <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d22349.981448711875!2d-34.86055953211083!3d-8.003489176175774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spontos%20tur%C3%ADsticos%20near%20Olinda%2C%20State%20of%20Pernambuco!5e0!3m2!1sen!2sbr!4v1733844086115!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
